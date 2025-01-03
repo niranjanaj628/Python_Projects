@@ -1,7 +1,7 @@
 #Calculator : Day-10
 
 print('''
-| ________ |
+ __________
 ||12345678||
 |""""""""""|
 |[M|#|C][-]|
@@ -11,8 +11,8 @@ print('''
 |[.|O|:][=]|
 "----------" ''')
 
-#addition function
 def operations(x,y,op):
+    '''This function carries out different operations such as addition, subtraction, multiplication, division etc.'''
     if op=='+':
         res= x + y
     elif op=='-':
@@ -24,7 +24,7 @@ def operations(x,y,op):
             res= x / y
         else:
             res= 'Error: Division by zero'
-
+    
     return res
     
 
