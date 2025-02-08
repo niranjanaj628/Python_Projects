@@ -20,6 +20,7 @@ screen.onkey(snake.down,'Down')
 screen.onkey(snake.left,'Left')
 screen.onkey(snake.right,'Right')
 
+
 game_is_on=True
 
 while game_is_on:
@@ -35,13 +36,18 @@ while game_is_on:
         
     #detect collision with wall
     if snake.head.xcor()>295 or snake.head.xcor()<-295 or snake.head.ycor()>295 or snake.head.ycor()<-295:
-        game_is_on=False
-        scoreboard.gameover()
-        
+        # scoreboard.gameover()
+        scoreboard.update_highscore()
+        snake.reset()
     #detect collision with tail
     for seg in snake.segments[1:]:
         if snake.head.distance(seg) < 10:
-            game_is_on=False
-            scoreboard.gameover()
-            
+            # scoreboard.gameover()
+            scoreboard.update_highscore()
+            snake.reset()
 screen.exitonclick()
+
+import os
+cwd = os.getcwd()  # Get the current working directory (cwd)
+files = os.listdir(cwd)  # Get all the files in that directory
+print("Files in %r: %s" % (cwd, files))
