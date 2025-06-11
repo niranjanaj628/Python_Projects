@@ -1,0 +1,2 @@
+amazon | abc@gmail.com | haihai
+netflix | abc@gmail.com | wertyu
