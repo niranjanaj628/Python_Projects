@@ -3,8 +3,8 @@ import smtplib
 import random 
 from datetime import datetime
 
-my_email = my_email = "army4life7777@gmail.com"
-password= "argo tzzl sxlk qlgs "
+my_email =  '-'
+password= '-
 
 today = (datetime.now().month , datetime.now().day)
 df = pd.read_csv('Python_Projects/projects/Day-32/birthdays.csv')
