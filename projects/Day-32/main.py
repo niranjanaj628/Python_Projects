@@ -3,7 +3,7 @@ import smtplib
 import random 
 from datetime import datetime
 
-my_email = my_email = '-
+my_email =  '-'
 password= '-
 
 today = (datetime.now().month , datetime.now().day)
