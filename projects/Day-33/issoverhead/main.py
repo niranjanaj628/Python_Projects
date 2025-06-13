@@ -40,7 +40,7 @@ def is_night():
 
 
 # Then send me an email to tell me to look up.
-my_email = my_email = "-"
+my_email = "-"
 password= "-"
 to_email = "-"
 
