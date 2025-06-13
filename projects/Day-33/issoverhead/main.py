@@ -40,9 +40,9 @@ def is_night():
 
 
 # Then send me an email to tell me to look up.
-my_email = '-'
-password= '-'
-to_email = "-"
+my_email = my_email = "army4life7777@gmail.com"
+password= "argo tzzl sxlk qlgs "
+to_email = "nirandnir7@gmail.com"
 
 # run the code every 60 seconds.
 while True:
